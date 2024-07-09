@@ -120,8 +120,10 @@
 }
 .outro{
     padding: 80px;
+    background-color: rgba(0, 0, 0, 0.9);
     background-image: url(assets/handshake.jpg);
-    
+    background-size: cover;
+    background-position: center;
     margin: 75px 150px;
     border-radius: 15px;
 }
@@ -136,4 +138,30 @@
     font-weight: 400;
     color: white;
     text-align: center;
+}
+.outro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feedback{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+.textbox{
+    width: 400px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    margin-right: 10px;
+}
+.btn-last{
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
 }
