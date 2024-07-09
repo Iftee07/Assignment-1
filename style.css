@@ -13,7 +13,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(assets/Hero-bg.png);
     padding-top: 45px;
     padding-bottom: 45px;
     gap: 32px;
@@ -120,7 +120,7 @@
 }
 .outro{
     padding: 80px;
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(assets/handshake.jpg);
     
     margin: 75px 150px;
     border-radius: 15px;
