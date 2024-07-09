@@ -45,6 +45,16 @@
     background-color: rgba(13, 19, 33, 2%);
     margin: 75px 150px;
     border-radius: 15px;
+    gap: 48px;
+}
+.second-intro{
+    padding: 0 47px 0 47px;
+    text-align: center;
+}
+.second-head{
+    font-size: 32px;
+    color: #0D1321;
+    margin-bottom: 24px;
 }
 .box-head{
     font-size: 32px;
