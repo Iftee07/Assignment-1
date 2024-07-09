@@ -27,7 +27,7 @@
 .text-gen{
     font-size: 16px;
     font-weight: 400;
-    color: #0D1321;
+    color: rgba(13, 19, 33, 70%);
 }
 .btn{
     background-color: #0D1321;
@@ -66,15 +66,25 @@
     border-radius: 15px;
     justify-content: space-between;
     gap: 150px;
+    padding: 48px;
 }
 .inside-box{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     gap: 16px;  
+    margin-right: 100px;
 }
 .box-head{
     font-size: 24px;
     font-weight: bold;
     color: rgba(13, 19, 33, 70%);
+}
+.btn-gen{
+    background-color: white;
+    font-size: 20;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: rgba(13, 19, 33, 70%);
+    border-color: rgba(13, 19, 33, 70%);
 }
