@@ -88,3 +88,52 @@
     color: rgba(13, 19, 33, 70%);
     border-color: rgba(13, 19, 33, 70%);
 }
+.video{
+    width: 900px; 
+    height: 500px; 
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.target{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+    margin: 75px 150px;
+    border-radius: 15px;
+    gap: 48px;
+}
+.skill-box{
+    display: flex;
+    gap: 26px;
+    margin-top: 48px;
+}
+.skills{
+    padding: 40px;
+    border-radius: 15px;
+}
+.learn{
+    color: black;
+    margin-top: 20px;
+}
+.outro{
+    padding: 80px;
+    background-image: url(/assets/handshake.jpg);
+    
+    margin: 75px 150px;
+    border-radius: 15px;
+}
+.outro-head{
+    font-size: 32px;
+    color: white;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.text-outro{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
