@@ -54,7 +54,13 @@
     background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
     display: flex;
     border-radius: 15px;
+    justify-content: space-between;
+    gap: 150px;
 }
 .inside-box{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
     
 }
